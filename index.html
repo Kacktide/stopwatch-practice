@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch by Kacktide</title>
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
+    <div class="stopwatch">
+      <div class="display">
+        <div class="display-item">
+          <div id="min-output" class="mins">00</div>
+          <span class="display-suffix">mins</span>
+        </div>
+        <div class="display-item">
+          <div id="sec-output" class="s">00</div>
+          <span class="display-suffix">sec</span>
+        </div>
+        <div class="display-item">
+          <div id="ms-output" class="ms">00</div>
+          <span class="display-suffix">ms</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <button style="--bg-clr: #16a34a" id="start-btn" class="btn">
+          Start
+        </button>
+        <button style="--bg-clr: #b91c1c" id="pause-btn" class="btn disabled">
+          Pause
+        </button>
+        <button style="--bg-clr: #0284c7" id="reset-btn" class="btn">
+          Reset
+        </button>
+      </div>
+    </div>
+
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
